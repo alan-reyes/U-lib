@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Áreas y Perímetros</title>
+</head>
+<body>
+    <h1>Áreas y Perímetro</h1>
+    <div class="contenedor-principal">
+        <div class="contenedor-figura">
+            <div class="contenedor-arriba">
+                <h2>Cuadrado</h2>
+            </div>
+            <div class="contenedor-medio">
+                <div class="contenedor-medio-izq">
+                    <img src="src/cuadrado.png" alt="Cuadrado">
+                </div>
+                <div class="contenedor-medio-der">
+                    <form action="">
+                        <label for="ladoCuadrado">Lado</label>
+                        <input type="number" name="ladoCuadrado" id="ladoCuadrado" oninput="CalcularCuadrado()">
+                        <br>
+                        <label for="perimetroCuadrado">Perímetro</label>
+                        <input type="number" name="perimetroCuadrado" id="perimetroCuadrado">
+                        <label for="areaCuadrado">Área</label>
+                        <input type="number" name="areaCuadrado" id="areaCuadrado">
+                    </form>
+                </div>
+            </div>
+            <div class="contenedor-abajo">
+                <button id="btnLimpiarCuadrado" onclick="LimpiarCuadrado()">Limpiar</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
