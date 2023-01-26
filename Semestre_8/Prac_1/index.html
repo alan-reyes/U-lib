@@ -14,7 +14,7 @@
 <body>
     <h1>Áreas y Perímetro</h1>
     <div class="contenedor-principal">
-        <div class="contenedor-figura">
+        <div class="contenedor-figura-cuadrado">
             <div class="contenedor-arriba">
                 <h2>Cuadrado</h2>
             </div>
@@ -31,6 +31,32 @@
                         <input type="number" name="perimetroCuadrado" id="perimetroCuadrado">
                         <label for="areaCuadrado">Área</label>
                         <input type="number" name="areaCuadrado" id="areaCuadrado">
+                    </form>
+                <!-- </div> -->
+            </div>
+            <div class="contenedor-abajo">
+                <button class="btn btn-3" id="btnLimpiarCuadrado" onclick="LimpiarCuadrado()"><span>Limpiar</span></button>
+            </div>
+        </div>
+        <div class="contenedor-figura-rectangulo">
+            <div class="contenedor-arriba">
+                <h2>Rectángulo</h2>
+            </div>
+            <div class="contenedor-medio">
+                <!-- <div class="contenedor-medio-izq">
+                    <img src="src/cuadrado.png" alt="Cuadrado">
+                </div> -->
+                <!-- <div class="contenedor-medio-der"> -->
+                    <form action="" class="form">
+                        <label for="largoRectangulo">Largo</label>
+                        <input type="number" name="largoRectangulo" id="largoRectangulo" oninput="CalcularRectangulo()">
+                        <label for="anchoRectangulo">Ancho</label>
+                        <input type="number" name="anchoRectangulo" id="anchoRectangulo" oninput="CalcularRectangulo()">
+                        <br>
+                        <label for="perimetroRectangulo">Perímetro</label>
+                        <input type="number" name="perimetroRectangulo" id="perimetroRectangulo">
+                        <label for="areaRectangulo">Área</label>
+                        <input type="number" name="areaRectangulo" id="areaRectangulo">
                     </form>
                 <!-- </div> -->
             </div>
