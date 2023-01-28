@@ -13,6 +13,7 @@ h2 {
     justify-content: space-evenly;
     width: 100%;
     height: 300px;
+    margin-top: 30px;
 }
 
 .contenedor-arriba,
@@ -68,11 +69,12 @@ form {
 
 /* tarjetas */
 .contenedor-figura-cuadrado {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 500px;
     box-shadow: 0;
     transition: box-shadow 1s;
     border: 1px solid #eee;
+    background-color: #eee;
 }
 
 .contenedor-figura-cuadrado:hover {
@@ -92,6 +94,14 @@ form {
     width: 60px;
     margin-right: 10px;
     margin-left: 90px;
+}
+
+#perimetroCuadrado {
+    margin-left: 88px;
+}
+
+#areaCuadrado {
+    margin-left: 88px;
 }
 
 .btn {
@@ -199,49 +209,4 @@ form {
 
 .contenedor-abajo button {
     margin: 0px;
-}
-
-/* Rectangulo */
-/* tarjetas */
-.contenedor-figura-rectangulo {
-    height: 300px;
-    width: 500px;
-    box-shadow: 0;
-    transition: box-shadow 1s;
-    border: 1px solid #eee;
-}
-
-.contenedor-figura-rectangulo:hover {
-    box-shadow: 0 0 3px #515151;    
-}
-
-.contenedor-figura-rectangulo .form label {
-    margin-left: 40px;
-}
-
-.contenedor-figura-rectangulo .form label:nth-child(1) {
-    margin-right: 5px;
-}
-
-.contenedor-figura-rectangulo .form label:nth-child(6) {
-    margin-right: -24px;    
-}
-
-.contenedor-figura-rectangulo .form label:nth-child(8) {
-    margin-right: 12px;        
-}
-
-.contenedor-figura-rectangulo .form input:nth-child(7) {    
-    margin-right: 20px;
-}
-
-.contenedor-figura-rectangulo .form input {
-    margin-top: 20px;
-    width: 60px;
-    margin-right: 0px;
-    margin-left: 200px;
-}
-
-.contenedor-figura-rectangulo .form {
-    margin-top: -20px;
 }
