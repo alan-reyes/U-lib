@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Tabla</title>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <td>Producto</td>
+            <td>Nombre</td>
+            <td>Cantidad</td>
+            <td></td>
+            <td>Precio Unidad</td>
+            <td></td>
+            <td>Subtotal</td>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Huevos</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto1Cantidad"></td>
+            <td>X</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto1Precio"></td>
+            <td>=</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto1Subtotal" disabled></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Pan</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto2Cantidad"></td>
+            <td>X</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto2Precio"></td>
+            <td>=</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto2Subtotal" disabled></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>QUeso</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto3Cantidad"></td>
+            <td>X</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto3Precio"></td>
+            <td>=</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto3Subtotal" disabled></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Crema</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto4Cantidad"></td>
+            <td>X</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto4Precio"></td>
+            <td>=</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto4Subtotal" disabled></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Shampoo</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto5Cantidad"></td>
+            <td>X</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto5Precio"></td>
+            <td>=</td>
+            <td><input type="number" onchange="CalcularSubtotal()" id="Producto5Subtotal" disabled></td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Total:</td>
+            <td><input type="numer" name="" id="total" disabled></td>
+        </tr>
+    </table>
 </body>
 </html>
