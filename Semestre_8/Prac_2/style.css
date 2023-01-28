@@ -1,0 +1,21 @@
+form {
+    width: 200px;
+    display: grid;
+    grid-template: 
+        "a b" 20px
+        "c d" 20px
+        "e e" 20px
+        "f g" 20px
+    ;
+}
+
+form label {
+    margin-right: 20px;
+}
+
+#separador {
+    margin-top: 5px;
+    width: 180px;
+    height: 2px;
+    background-color: black;
+}
