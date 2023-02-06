@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,32 +12,110 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Áreas y Perímetros</title>
 </head>
+
 <body>
     <h1>Áreas y Perímetro</h1>
     <div class="contenedor-principal">
-        <div class="contenedor-figura-cuadrado">
+        <div class="contenedor-figura">
             <div class="contenedor-arriba">
                 <h2>Cuadrado</h2>
             </div>
             <div class="contenedor-medio">
-                <div class="contenedor-figura">
-
+                <div class="contenedor-medio-figura">
+                    <img src="img/cuadrado.png" alt="">
                 </div>
                 <div class="contenedor-form">
                     <form action="" class="form">
-                        <label for="ladoCuadrado">Lado</label>
-                        <input type="number" name="ladoCuadrado" id="ladoCuadrado" oninput="CalcularCuadrado()">
-                        <br>
-                        <label for="perimetroCuadrado">Perímetro</label>
-                        <input type="number" name="perimetroCuadrado" id="perimetroCuadrado">
-                        <label for="areaCuadrado">Área</label>
-                        <input type="number" name="areaCuadrado" id="areaCuadrado">
+                        <div class="contenedor-input">
+                            <label for="ladoCuadrado">Lado</label>
+                            <input type="number" name="ladoCuadrado" id="ladoCuadrado" oninput="CalcularCuadrado()">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="perimetroCuadrado">Perímetro</label>
+                            <input type="number" name="perimetroCuadrado" id="perimetroCuadrado">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="areaCuadrado">Área</label>
+                            <input type="number" name="areaCuadrado" id="areaCuadrado">
+                        </div>
                     </form>
                 </div>
             </div>
             <div class="contenedor-abajo">
-                <button class="btn btn-3" id="btnLimpiarCuadrado" onclick="LimpiarCuadrado()"><span>Limpiar</span></button>
+                <button class="btn btn-3" id="btnLimpiarCuadrado"
+                    onclick="LimpiarCuadrado()"><span>Limpiar</span></button>
             </div>
         </div>
+        <div class="contenedor-figura">
+            <div class="contenedor-arriba">
+                <h2>Rectángulo</h2>
+            </div>
+            <div class="contenedor-medio">
+                <div class="contenedor-medio-figura">
+                    <img src="img/rectangulo.png" alt="">
+                </div>
+                <div class="contenedor-form">
+                    <form action="" class="form">
+                        <div class="contenedor-input">
+                            <label for="largoRectangulo">Largo</label>
+                            <input type="number" name="largoRectangulo" id="largoRectangulo" oninput="CalcularRectangulo()">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="anchoRectangulo">Ancho</label>
+                            <input type="number" name="anchoRectangulo" id="anchoRectangulo" oninput="CalcularRectangulo()">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="perimetroRectangulo">Perímetro</label>
+                            <input type="number" name="perimetroRectangulo" id="perimetroRectangulo">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="areaRectangulo">Área</label>
+                            <input type="number" name="areaRectangulo" id="areaRectangulo">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="contenedor-abajo">
+                <button class="btn btn-3" id="btnLimpiarRectangulo"
+                    onclick="LimpiarRectangulo()"><span>Limpiar</span></button>
+            </div>
+        </div>
+        <div class="contenedor-figura">
+            <div class="contenedor-arriba">
+                <h2>Triángulo</h2>
+            </div>
+            <div class="contenedor-medio">
+                <div class="contenedor-medio-figura">
+                    <img src="img/triangulo.png" alt="">
+                </div>
+                <div class="contenedor-form">
+                    <form action="" class="form">
+                        <div class="contenedor-input">
+                            <label for="baseTriangulo">Base</label>
+                            <input type="number" name="baseTriangulo" id="baseTriangulo" oninput="CalcularTriangulo()">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="alturaTriangulo">Altura</label>
+                            <input type="number" name="alturaTriangulo" id="alturaTriangulo" oninput="CalcularTriangulo()">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="perimetroTriangulo">Perímetro</label>
+                            <input type="number" name="perimetroTriangulo" id="perimetroTriangulo">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="areaTriangulo">Área</label>
+                            <input type="number" name="areaTriangulo" id="areaTriangulo">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="contenedor-abajo">
+                <button class="btn btn-3" id="btnLimpiarTriangulo"
+                    onclick="LimpiarTriangulo()"><span>Limpiar</span></button>
+            </div>
+        </div>
+        
+        
 </body>
+
 </html>

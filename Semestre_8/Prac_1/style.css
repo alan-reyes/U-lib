@@ -33,29 +33,13 @@ h2 {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 25px;
 }
 
 form {
-    margin: 20px;
-}
-
-.contenedor-medio-der {
-    width: 188px;
-}
-
-.contenedor-medio-der input {
-    width: 80px;
-}
-
-.contenedor-medio-der label:nth-child(1) {
-    margin-right: 30px;
-}
-
-.contenedor-medio-der label:nth-child(6) {
-    margin-right: 32px;
+    margin-top: 40px;
 }
 
 .contenedor-abajo {
@@ -67,41 +51,35 @@ form {
     margin: 15px;
 }
 
+.form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.contenedor-input input{
+    width: 80px;
+}
+
 /* tarjetas */
-.contenedor-figura-cuadrado {
+.contenedor-figura {
     height: 350px;
     width: 500px;
     box-shadow: 0;
     transition: box-shadow 1s;
-    border: 1px solid #eee;
-    background-color: #eee;
+    border: 1px solid #cacaca;
+    background-color: #fff;
 }
 
-.contenedor-figura-cuadrado:hover {
+.contenedor-figura:hover {
     box-shadow: 0 0 3px #515151;    
-}
-
-.form label:nth-child(1) {
-    margin-right: 33px;
-}
-
-.form label:nth-child(6) {
-    margin-right: 36px;
-}
-
-.form input {
-    margin-top: 20px;
-    width: 60px;
-    margin-right: 10px;
-    margin-left: 90px;
-}
-
-#perimetroCuadrado {
-    margin-left: 88px;
-}
-
-#areaCuadrado {
-    margin-left: 88px;
 }
 
 .btn {
@@ -205,8 +183,4 @@ form {
 
 .btn-3 span:hover:after {
     width: 100%;
-}
-
-.contenedor-abajo button {
-    margin: 0px;
 }

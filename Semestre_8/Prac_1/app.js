@@ -27,10 +27,10 @@ function LimpiarCuadrado() {
 }
 
 function CalcularRectangulo() {
-    var largoRectanguloE = document.getElementById('largoRectangulo');        
-    var anchoRectanguloE = document.getElementById('anchoRectangulo');        
-    var largoRectangulo = largoRectanguloE.value;
-    var anchoRectangulo = anchoRectanguloE.value;
+    var largoRectanguloElement = document.getElementById('largoRectangulo');        
+    var anchoRectanguloElement = document.getElementById('anchoRectangulo');        
+    var largoRectangulo = largoRectanguloElement.value;
+    var anchoRectangulo = anchoRectanguloElement.value;
 
     if (largoRectangulo == '' || anchoRectangulo == '') {
         return false;
@@ -59,6 +59,41 @@ function LimpiarRectangulo() {
     anchoRectangulo.value = '';
     perimetroRectangulo.value = '';
     areaRectangulo.value = '';
+}
+
+function CalcularTriangulo() {
+    var baseTrianguloElement = document.getElementById('baseTriangulo');        
+    var alturaTrianguloElement = document.getElementById('alturaTriangulo');        
+    var baseTriangulo = baseTrianguloElement.value;
+    var alturaTriangulo = alturaTrianguloElement.value;
+
+    if (baseTriangulo == '' || alturaTriangulo == '') {
+        return false;
+    } else {
+        if (parseInt(baseTriangulo) <= 0 || parseInt(alturaTriangulo) <= 0) {
+            alert('No se permiten números negativos');
+            LimpiarTriangulo();
+        } else {
+            var perimetro = baseTriangulo * 3;
+            var area = (baseTriangulo * alturaTriangulo) / 2;
+            var perimetroTriangulo = document.getElementById('perimetroTriangulo');
+            perimetroTriangulo.value = perimetro.toString();
+            var areaTriangulo = document.getElementById('areaTriangulo');
+            areaTriangulo.value = area.toString();
+        }
+    }                
+
+}
+
+function LimpiarTriangulo() {
+    var baseTriangulo = document.getElementById('baseTriangulo');
+    var alturaTriangulo = document.getElementById('alturaTriangulo');
+    var perimetroTriangulo = document.getElementById('perimetroTriangulo');
+    var areaTriangulo = document.getElementById('areaTriangulo');
+    baseTriangulo.value = '';
+    alturaTriangulo.value = '';
+    perimetroTriangulo.value = '';
+    areaTriangulo.value = '';
 }
 
 
