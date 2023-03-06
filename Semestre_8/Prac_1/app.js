@@ -96,5 +96,70 @@ function LimpiarTriangulo() {
     areaTriangulo.value = '';
 }
 
+function CalcularRombo() {
+    var DiagonalUnoRombo = document.getElementById('baseRombo');
+    var DIagonalDosRombo = document.getElementById('baseRombo');        
 
+    var DiagonalUnoRombo = DiagonalUnoRombo.value;
+    var DiagonalUnoRombo = DIagonalDosRombo.value;
+
+    if (DiagonalUnoRombo == '' || DIagonalDosRombo == '') {
+        return false;
+    } else {
+        if (parseInt(DiagonalUnoRombo) <= 0 || parseInt(DIagonalDosRombo) <= 0) {
+            alert('No se permiten números negativos');
+            LimpiarRombo();
+        } else {
+            var perimetro = baseRombo * 3;
+            var area = (baseRombo * alturaRombo) / 2;
+            var perimetroRombo = document.getElementById('perimetroRombo');
+            perimetroRombo.value = perimetro.toString();
+            var areaRombo = document.getElementById('areaRombo');
+            areaRombo.value = area.toString();
+        }
+    }                
+
+}
+
+function LimpiarRombo() {
+    var baseRombo = document.getElementById('baseRombo');
+    var alturaRombo = document.getElementById('alturaRombo');
+    var perimetroRombo = document.getElementById('perimetroRombo');
+    var areaRombo = document.getElementById('areaRombo');
+    baseRombo.value = '';
+    alturaRombo.value = '';
+    perimetroRombo.value = '';
+    areaRombo.value = '';
+}
+
+function CalcularPentagono() {
+    var ladoPentagono = document.getElementById('ladoPentagono');
+    var ladoPentagono = ladoPentagono.value;
+
+    if (ladoPentagono == '' || ladoPentagono == '') {
+        return false;
+    } else {
+        if (parseInt(ladoPentagono) <= 0 || parseInt(ladoPentagono) <= 0) {
+            alert('No se permiten números negativos');
+            LimpiarPentagono();
+        } else {
+            var perimetro = ladoPentagono * 5;
+            //var area = (basePentagono * alturaPentagono) / 2;
+            var perimetroPentagono = document.getElementById('perimetroPentagono');
+            perimetroPentagono.value = perimetro.toString();
+            //var areaPentagono = document.getElementById('areaPentagono');
+            //areaPentagono.value = area.toString();
+        }
+    }                
+
+}
+
+function LimpiarPentagono() {
+    var ladoPentagono = document.getElementById('ladoPentagono');
+    var perimetroPentagono = document.getElementById('perimetroPentagono');
+    var areaPentagono = document.getElementById('areaPentagono');
+    lado.value = '';
+    perimetroPentagono.value = '';
+    areaPentagono.value = '';
+}
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylce.css">
+    <script src="app.js"></script>
+    <title>Tabla</title>
+</head>
+
+<body>
+    <h3>Cookies</h3>
+    <form class="form">
+        <div class="Row">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" required>
+            <label for="NombreShow">Nombre:</label>
+            <input type="text" id="NombreShow" readonly>
+        </div>
+        <div class="Row">
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellidos" required>
+            <label for="ApellidosShow">Apellidos:</label>
+            <input type="text" id="ApellidosShow" readonly>
+        </div>
+        <div class="Row">
+            <label for="Edad">Edad:</label>
+            <input type="text" id="Edad" required>
+            <label for="EdadShow">Edad:</label>
+            <input type="text" id="EdadShow" readonly>
+        </div>
+        <div class="RowButtons">
+            <button onclick="Agregar()">Agregar</button>
+            <button onclick="Recuperar()">Recuperar</button>
+            <button onclick="Borrar()">Borrar</button>
+        </div>
+    </form>
+</body>
+
+</html>

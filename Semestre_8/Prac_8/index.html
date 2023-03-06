@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylce.css">
+    <script src="app.js"></script>
+    <title>Cookies</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="data-container">
+            <h3>Datos</h3>
+            <select name="cookiesSelect" id="cookiesSelect">
+                <option value="Cookies">Cookies</option>
+            </select>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div>
+                    <label for="NoControl">Número de Control: </label>
+                    <input type="text" name="NoControl" id="NoControl">
+                </div>
+                <div>
+                    <label for="NombreCompleto">Nombre Completo: </label>
+                    <input type="text" name="NombreCompleto" id="NombreCompleto">
+                </div>
+                <div>
+                    <button onclick="AgregarCookie()">Agregar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

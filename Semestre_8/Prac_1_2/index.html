@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="miscript.js"></script>
+
+</head>
+
+<body>
+    <div id="general">
+        
+            <h1>Indice de masa corporal</h1>
+            <div id="formulario">
+                <form>
+                    <table>
+                        <tr>
+                            <td class="Etiquetas">Masa(KG)</td>
+                            <td><input type="number" id="Masa" onchange="CalcularIMC()"></td>
+                            <td rowspan="5"><img src="" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="Etiquetas">Estatura (CM)</td>
+                            <td><input type="number" id="Estatura" onchange="CalcularIMC()"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Etiquetas">IMC</td>
+                            <td><input type="text" id="IMC" readonly></td>
+                        </tr>
+                        <tr>
+                            <td class="Etiquetas">Riesgos</td>
+                            <td><textarea name="" id="Riesgos" cols="21" rows="9" readonly></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <input type="reset" value="Limpiar Formulario" id="RESET">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            
+            <div id="imagen">
+                <img src="" alt="" id="media">
+            </div>
+           
+            <h6>Por Alan Bladimir Reyes Hernández</h6>
+        
+    </div>
+</body>
+
+</html>

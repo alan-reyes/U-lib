@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.Row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.RowButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+* {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+

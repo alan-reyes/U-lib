@@ -127,23 +127,27 @@
                 <div class="contenedor-form">
                     <form action="" class="form">
                         <div class="contenedor-input">
-                            <label for="ladoCuadrado">Lado</label>
-                            <input type="number" name="ladoCuadrado" id="ladoCuadrado" oninput="CalcularCuadrado()">
+                            <label for="diagonalUnoRombo">Diagonal Uno</label>
+                            <input type="number" name="DiagonalUnoRombo" id="DiagonalUnoRombo" oninput="CalcularRombo()">
                         </div>
                         <div class="contenedor-input">
-                            <label for="perimetroCuadrado">Perímetro</label>
-                            <input type="number" name="perimetroCuadrado" id="perimetroCuadrado">
+                            <label for="diagonalDosRombo">Diagonal Dos</label>
+                            <input type="number" name="DiagonalDosRombo" id="DiagonalDosRombo" oninput="CalcularRombo()">
                         </div>
                         <div class="contenedor-input">
-                            <label for="areaCuadrado">Área</label>
-                            <input type="number" name="areaCuadrado" id="areaCuadrado">
+                            <label for="perimetroRombo">Perímetro</label>
+                            <input type="number" name="perimetroRombo" id="perimetroRombo">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="areaRombo">Área</label>
+                            <input type="number" name="areaRombo" id="areaRombo">
                         </div>
                     </form>
                 </div>
             </div>
             <div class="contenedor-abajo">
-                <button class="btn btn-3" id="btnLimpiarCuadrado"
-                    onclick="LimpiarCuadrado()"><span>Limpiar</span></button>
+                <button class="btn btn-3" id="btnLimpiarRombo"
+                    onclick="LimpiarRombo()"><span>Limpiar</span></button>
             </div>
         </div>
         <div class="contenedor-figura">
@@ -157,20 +161,20 @@
                 <div class="contenedor-form">
                     <form action="" class="form">
                         <div class="contenedor-input">
-                            <label for="largoRectangulo">Largo</label>
-                            <input type="number" name="largoRectangulo" id="largoRectangulo" oninput="CalcularRectangulo()">
+                            <label for="ladoPentagono">Lado</label>
+                            <input type="number" name="ladoPentagono" id="ladoPentagono" oninput="CalcularPentagono()">
                         </div>
                         <div class="contenedor-input">
-                            <label for="anchoRectangulo">Ancho</label>
-                            <input type="number" name="anchoRectangulo" id="anchoRectangulo" oninput="CalcularRectangulo()">
+                            <label for="ladoPentagono">Apotema</label>
+                            <input type="number" name="ladoPentagono" id="ladoPentagono" oninput="CalcularPentagono()">
                         </div>
                         <div class="contenedor-input">
-                            <label for="perimetroRectangulo">Perímetro</label>
-                            <input type="number" name="perimetroRectangulo" id="perimetroRectangulo">
+                            <label for="perimetroPentagono">Perímetro</label>
+                            <input type="number" name="perimetroPentagono" id="perimetroPentagono">
                         </div>
                         <div class="contenedor-input">
-                            <label for="areaRectangulo">Área</label>
-                            <input type="number" name="areaRectangulo" id="areaRectangulo">
+                            <label for="areaPentagono">Área</label>
+                            <input type="number" name="areaPentagono" id="areaPentagono">
                         </div>
                     </form>
                 </div>
@@ -191,11 +195,11 @@
                 <div class="contenedor-form">
                     <form action="" class="form">
                         <div class="contenedor-input">
-                            <label for="baseTriangulo">Base</label>
+                            <label for="baseTriangulo">Lado</label>
                             <input type="number" name="baseTriangulo" id="baseTriangulo" oninput="CalcularTriangulo()">
                         </div>
                         <div class="contenedor-input">
-                            <label for="alturaTriangulo">Altura</label>
+                            <label for="alturaTriangulo">Apotema</label>
                             <input type="number" name="alturaTriangulo" id="alturaTriangulo" oninput="CalcularTriangulo()">
                         </div>
                         <div class="contenedor-input">
@@ -227,7 +231,7 @@
                 <div class="contenedor-form">
                     <form action="" class="form">
                         <div class="contenedor-input">
-                            <label for="ladoCuadrado">Lado</label>
+                            <label for="ladoCuadrado">Radio</label>
                             <input type="number" name="ladoCuadrado" id="ladoCuadrado" oninput="CalcularCuadrado()">
                         </div>
                         <div class="contenedor-input">
