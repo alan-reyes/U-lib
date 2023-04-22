@@ -1,4 +1,5 @@
 <?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "Personas.dtd">
 <personas>
     <persona>
         <nombre>Juan</nombre>
@@ -28,6 +29,16 @@
             <calle>Morelos</calle>
             <colonia>Cuapech</colonia>
             <ciudad>Toluca</ciudad>
+        </domicilio>
+    </persona>
+    <persona>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <edad></edad>
+        <domicilio>
+            <calle></calle>
+            <colonia></colonia>
+            <ciudad></ciudad>
         </domicilio>
     </persona>
 </personas>

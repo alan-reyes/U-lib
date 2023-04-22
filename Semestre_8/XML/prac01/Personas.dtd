@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre, apellidos, edad, domicilio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT domicilio (calle, colonia, ciudad)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT colonia (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST __ROOT__ version CDATA #REQUIRED>
