@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Almacen (Producto+)>
+<!ELEMENT Producto (Clave, Nombre, Unidad, PUnitario)>
+<!ELEMENT Clave (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Unidad (#PCDATA)>
+<!ELEMENT PUnitario (#PCDATA)>

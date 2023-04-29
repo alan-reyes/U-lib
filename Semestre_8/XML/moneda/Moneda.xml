@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Almacen SYSTEM "Moneda.dtd">
+<?xml-stylesheet href="Moneda.xsl" type="text/xsl"?>
+<Almacen>
+    <Producto>
+        <Clave>1234</Clave>
+        <Nombre>Coca Cola 600</Nombre>
+        <Unidad>Botella 600 ml</Unidad>
+        <PUnitario>12</PUnitario>
+    </Producto>
+    <Producto>
+        <Clave>9587</Clave>
+        <Nombre>Vive 100</Nombre>
+        <Unidad>Botella 600 ml</Unidad>
+        <PUnitario>11.5</PUnitario>
+    </Producto>
+</Almacen>

@@ -1,0 +1,44 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE Materias SYSTEM "Materias.dtd">
+<Materias>
+    <materia>
+        <nombre>Diseño de aplicaciones web</nombre>
+        <clave>DAW-00</clave>
+        <semestre>8</semestre>
+        <horas>
+            <teoricas>2</teoricas>
+            <practicas>3</practicas>
+        </horas>
+        <creditos>5</creditos>
+    </materia>
+    <materia>
+        <nombre>Redes de computadoras</nombre>
+        <clave>RC-00</clave>
+        <semestre>5</semestre>
+        <horas>
+            <teoricas>1</teoricas>
+            <practicas>4</practicas>
+        </horas>
+        <creditos>4</creditos>
+    </materia>
+    <materia>
+        <nombre>Matemáticas Discretas</nombre>
+        <clave>MD-00</clave>
+        <semestre>3</semestre>
+        <horas>
+            <teoricas>2</teoricas>
+            <practicas>3</practicas>
+        </horas>
+        <creditos>3</creditos>
+    </materia>
+    <materia>
+        <nombre></nombre>
+        <clave></clave>
+        <semestre></semestre>
+        <horas>
+            <teoricas></teoricas>
+            <practicas></practicas>
+        </horas>
+        <creditos></creditos>
+    </materia>
+</Materias>

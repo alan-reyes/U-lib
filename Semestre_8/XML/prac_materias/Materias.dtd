@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Materias (materia+)>
+<!ELEMENT materia (nombre, clave, semestre, horas, creditos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT clave (#PCDATA)>
+<!ELEMENT semestre (#PCDATA)>
+<!ELEMENT horas (teoricas, practicas)>
+<!ELEMENT teoricas (#PCDATA)>
+<!ELEMENT practicas (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST __ROOT__ version CDATA #REQUIRED>
